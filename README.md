@@ -70,7 +70,7 @@ curl -X GET 'http://localhost:9200/webpages/_search?q=your_keyword'
 ```
 
 ## 📊 Performance Optimizations
-- **Asynchronous processing with Kafka** for handling high throughput
+- **Asynchronous processing with RabbitMQ** for handling high throughput
 - **Redis caching** for fast deduplication
 - **Parallel crawling with multiple workers**
 - **Batch indexing in Elasticsearch** for optimized search performance
